@@ -1,0 +1,5 @@
+package com.ganesh.springbootstarter.topic;
+
+public class Topic {
+
+}
