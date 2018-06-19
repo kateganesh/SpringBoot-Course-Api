@@ -1,0 +1,17 @@
+package com.ganesh.springbootstarter.topic;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class TopicService {
+	
+	private List<Topic> topics = Arrays.asList(
+			new Topic("Spring", "Spring Framework", "Spring Framework Description"),
+			new Topic("Java", "Core Java", "Core Java Description"),
+			new Topic("javaScript", "javaScript","javaScript Descrription")
+			);
+	
+	public List<Topic> getAllTopics(){
+		return topics;
+	}
+}
